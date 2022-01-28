@@ -320,40 +320,48 @@
 <!-- Gift Cards end here -->
 <!-- Gift Style start here -->
 <section class="gift_style_wrapper gift_style_bg py_5">
-    <div class="text-center sub_heading mb-4">
+    <div class="text-center sub_heading">
         <h3>Gift Style</h3>
         <img src="assets/images/border-bottom.png" alt="">
     </div>
     <ul class="gift_style_list gift_style_slick">
         <li class="gift_item">
+            <span class="icon_style"><i class="material-icons">east</i></span>
             <h4>Flower</h4>
             <img src="assets/images/gift_style/1.png" class="img-fluid" alt="">
         </li>
         <li class="gift_item">
+            <span class="icon_style"><i class="material-icons">east</i></span>
             <h4>Flower</h4>
             <img src="assets/images/gift_style/2.png" class="img-fluid" alt="">
         </li>
         <li class="gift_item">
+            <span class="icon_style"><i class="material-icons">east</i></span>
             <h4>Flower</h4>
             <img src="assets/images/gift_style/3.png" class="img-fluid" alt="">
         </li>
         <li class="gift_item">
+            <span class="icon_style"><i class="material-icons">east</i></span>
             <h4>Flower</h4>
             <img src="assets/images/gift_style/4.png" class="img-fluid" alt="">
         </li>
         <li class="gift_item">
+            <span class="icon_style"><i class="material-icons">east</i></span>
             <h4>Flower</h4>
             <img src="assets/images/gift_style/5.png" class="img-fluid" alt="">
         </li>
         <li class="gift_item">
+            <span class="icon_style"><i class="material-icons">east</i></span>
             <h4>Flower</h4>
             <img src="assets/images/gift_style/1.png" class="img-fluid" alt="">
         </li>
         <li class="gift_item">
+            <span class="icon_style"><i class="material-icons">east</i></span>
             <h4>Flower</h4>
             <img src="assets/images/gift_style/1.png" class="img-fluid" alt="">
         </li>
         <li class="gift_item">
+            <span class="icon_style"><i class="material-icons">east</i></span>
             <h4>Flower</h4>
             <img src="assets/images/gift_style/1.png" class="img-fluid" alt="">
         </li>

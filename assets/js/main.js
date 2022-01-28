@@ -184,7 +184,33 @@ $('.store_location_slick').slick({
         }
     ]
 });
-
+$('.items_cart_slick').slick({
+    slidesToShow: 4,
+    slidesToScroll: 1,
+    // autoplay: true,
+    autoplaySpeed: 1000,
+    arrows: true,
+    prevArrow: "<button type='button' class='slick-prev pull-left'><img src='assets/images/arrow-right.png' alt='' /></button>",
+    nextArrow: "<button type='button' class='slick-next pull-right'><img src='assets/images/arrow-right.png' alt='' /></button>",
+    responsive: [{
+            breakpoint: 991,
+            settings: {
+                slidesToShow: 2
+            }
+        }, {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 2
+            }
+        },
+        {
+            breakpoint: 480,
+            settings: {
+                slidesToShow: 1
+            }
+        }
+    ]
+});
 $('.custom_product_slick').slick({
     slidesToShow: 5,
     slidesToScroll: 1,
@@ -205,6 +231,34 @@ $('.custom_product_slick').slick({
         },
         {
             breakpoint: 520,
+            settings: {
+                slidesToShow: 1
+            }
+        }
+    ]
+});
+$('.gift_coupan_slick').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1000,
+    arrows: true,
+    dots: false,
+    prevArrow: "<button type='button' class='slick-prev pull-left'><img src='assets/images/arrow-right.png' alt='' /></button>",
+    nextArrow: "<button type='button' class='slick-next pull-right'><img src='assets/images/arrow-right.png' alt='' /></button>",
+    responsive: [{
+            breakpoint: 991,
+            settings: {
+                slidesToShow: 2
+            }
+        }, {
+            breakpoint: 768,
+            settings: {
+                slidesToShow: 2
+            }
+        },
+        {
+            breakpoint: 480,
             settings: {
                 slidesToShow: 1
             }

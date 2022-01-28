@@ -17,7 +17,7 @@
                             <h5 class="font-cera">Rate Our Shop</h5>
                             <div class="border_card d-flex justify-content-between align-items-center mb-1">
                                 <h4 class="font-cera mb-0 fs-18">The Packing</h4>
-                                <div class="rating">
+                                <div class="rating_shop">
                                     <input type="radio" id="packing_star_5" name="packing" value="5" />
                                     <label for="packing_star_5" title="text">5 stars</label>
                                     <input type="radio" id="packing_star_4" name="packing" value="4" />
@@ -32,7 +32,7 @@
                             </div>
                             <div class="border_card d-flex justify-content-between align-items-center mb-1">
                                 <h4 class="font-cera mb-0 fs-18">Delivery Time</h4>
-                                <div class="rating">
+                                <div class="rating_shop">
                                     <input type="radio" id="delivery_star_5" name="delivery" value="5" />
                                     <label for="delivery_star_5" title="text">5 stars</label>
                                     <input type="radio" id="delivery_star_4" name="delivery" value="4" />
@@ -47,7 +47,7 @@
                             </div>
                             <div class="border_card d-flex justify-content-between align-items-center mb-1">
                                 <h4 class="font-cera mb-0 fs-18">The Prices</h4>
-                                <div class="rating">
+                                <div class="rating_shop">
                                     <input type="radio" id="prices_star_5" name="prices" value="5" />
                                     <label for="prices_star_5" title="text">5 stars</label>
                                     <input type="radio" id="prices_star_4" name="prices" value="4" />
@@ -65,7 +65,7 @@
                             <h5 class="font-cera">Rate Our Shop</h5>
                             <div class="border_card d-flex justify-content-between align-items-center mb-1">
                                 <h4 class="font-cera mb-0 fs-18">Item 01</h4>
-                                <div class="rating">
+                                <div class="rating_shop">
                                     <input type="radio" id="item_1_star_5" name="item_1" value="5" />
                                     <label for="item_1_star_5" title="text">5 stars</label>
                                     <input type="radio" id="item_1_star_4" name="item_1" value="4" />
@@ -80,7 +80,7 @@
                             </div>
                             <div class="border_card d-flex justify-content-between align-items-center mb-1">
                                 <h4 class="font-cera mb-0 fs-18">Item 02</h4>
-                                <div class="rating">
+                                <div class="rating_shop">
                                     <input type="radio" id="item_2_star_5" name="item_2" value="5" />
                                     <label for="item_2_star_5" title="text">5 stars</label>
                                     <input type="radio" id="item_2_star_4" name="item_2" value="4" />
@@ -92,10 +92,11 @@
                                     <input type="radio" id="item_2_star_1" name="item_2" value="1" />
                                     <label for="item_2_star_1" title="text">1 star</label>
                                 </div>
+                                
                             </div>
                             <div class="border_card d-flex justify-content-between align-items-center mb-1">
                                 <h4 class="font-cera mb-0 fs-18">Item 03</h4>
-                                <div class="rating">
+                                <div class="rating_shop">
                                     <input type="radio" id="item_3_star_5" name="item_3" value="5" />
                                     <label for="item_3_star_5" title="text">5 stars</label>
                                     <input type="radio" id="item_3_star_4" name="item_3" value="4" />
