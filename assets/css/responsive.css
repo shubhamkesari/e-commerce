@@ -172,6 +172,15 @@
   .features_card .features_image img {
     width: 100%;
   }
+  .footer-bottom-text {
+    text-align: center;
+  }
+  .footer_social_links,
+  .payment_list {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {

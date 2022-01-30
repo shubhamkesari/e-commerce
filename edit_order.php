@@ -57,3 +57,19 @@
     </div>
 </section>
 <?php include('include/footer.php');?>
+<script>
+    //quantity number increment and decrement
+    var quantity_text = 0;
+
+    document.getElementById("quantity_number").innerText = quantity_text;
+
+    function increment() {
+        quantity_text = quantity_text + 1;
+        document.getElementById("quantity_number").innerText = quantity_text;
+    }
+
+    function decrement() {
+        quantity_text = quantity_text - 1;
+        document.getElementById("quantity_number").innerText = quantity_text;
+    }
+</script>

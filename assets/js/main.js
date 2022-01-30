@@ -280,7 +280,7 @@ function initMap() {
         map: map,
     });
 }
-
+// faq script start here
 $(document).ready(function() {
 
     // Add minus icon for collapse element which
@@ -300,19 +300,48 @@ $(document).ready(function() {
             .removeClass("fa-chevron-up").addClass("fa-chevron-down");
     });
 });
+// faq script end here
 
-//quantity number increment and decrement
 
-var quantity_text = 0;
+$(".date_time_tab ul li").on('click', function() {
+    $('.date_time_tab ul li').removeClass("active");
+    $(this).addClass("active");
+});
 
-document.getElementById("quantity_number").innerText = quantity_text;
+$(".cart_items_section .item_cart_checkbox:checkbox").on('click', function() {
+    $(this).parent().toggleClass("checked");
+});
 
-function increment() {
-    quantity_text = quantity_text + 1;
-    document.getElementById("quantity_number").innerText = quantity_text;
-}
+// checkout page js start here
 
-function decrement() {
-    quantity_text = quantity_text - 1;
-    document.getElementById("quantity_number").innerText = quantity_text;
-}
+$('#btn_saved_address').on('click', function() {
+    $('.checkout_section .order_deatils_info ol li:eq(0)').removeClass('progress--active').addClass('progress--checked');
+    $('.checkout_section .order_deatils_info ol li:eq(1)').removeClass('progress--unvisited').addClass('progress--active');
+});
+$('#btn_delivery_method').on('click', function() {
+    $('.checkout_section .order_deatils_info ol li:eq(1)').removeClass('progress--active').addClass('progress--checked');
+    $('.checkout_section .order_deatils_info ol li:eq(2)').removeClass('progress--unvisited').addClass('progress--active');
+});
+$('#btn_payment_method').on('click', function() {
+    $('.checkout_section .order_deatils_info ol li:eq(2)').removeClass('progress--active').addClass('progress--checked');
+    $('.checkout_section .order_deatils_info ol li:eq(3)').removeClass('progress--unvisited').addClass('progress--active');
+});
+$('#btn_date_and_time').on('click', function() {
+    $('.checkout_section .order_deatils_info ol li:eq(3)').removeClass('progress--active').addClass('progress--checked');
+});
+// checkout page js end here
+
+
+// var $radioButtons = $('.checkout_section input[type="radio"]');
+// $radioButtons.click(function() {
+//     $radioButtons.each(function() {
+//         alert();
+//         $(this).parent().toggleClass('checked11', this.checked);
+//     });
+// });
+
+// $(".checkout_section input:radio").on('click', function() {
+//     alert();
+//     $('input:radio').parent().removeClass('checked');
+//     $(this).parent().addClass("checked");
+// });
