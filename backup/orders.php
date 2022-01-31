@@ -2,10 +2,10 @@
 <section class="store_card_wrapper py_5">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="col-lg-3 col-md-4">
                 <?php include('include/myaccount_sidebar.php');?>
             </div>
-            <div class="col-lg-9 col-md-8 col-sm-6">
+            <div class="col-lg-9 col-md-8">
                 <div class="row">
                     <div class="col-12">
                         <div class="sub_heading d-flex flex-column flex-md-row flex-xs-column justify-content-between align-items-center mb-3">
@@ -15,7 +15,7 @@
                     <div class="col-12">
                         <div class="d-flex flex-column flex-md-row flex-xs-column align-items-center mb-4">
                             <h4 class="mb-0 font-cera text-uppercase mr-5 fs-20 text-dark-gray">Status</h4>
-                            <div class="ml-2 order_checkbox d-flex flex-wrap">
+                            <div class="ml-2 order_checkbox d-flex">
                                 <div class="form-check form-check-inline">
                                     <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1">
                                     <label class="form-check-label" for="inlineCheckbox1">On The Way</label>
@@ -33,7 +33,7 @@
                                     <label class="form-check-label" for="inlineCheckbox4">Returned</label>
                                 </div>
                             </div>
-                            <div class="form-inline position-relative product_search mw-210px ml-md-auto">
+                            <div class="form-inline position-relative product_search mw-210px ml-auto">
                                 <input class="form-control w-100" type="search" placeholder="Search....." aria-label="Search...">
                                 <button type="button" class="border-0 bg-transparent"><img src="assets/images/search.png" class="icon-2" alt=""></button>
                             </div>
@@ -54,7 +54,7 @@
                                         <a href="javascript:void(0);"  class="disabled">Edit</a>
                                         <a href="">Recorder</a>
                                     </div>
-                                    <div class="order_price_info ml-lg-auto text-center text-lg-right mb-4 mb-lg-0">
+                                    <div class="order_price_info ml-auto text-right">
                                         <h4 class="cart_text font-cera">KWD 14.40 </h4>
                                         <a class="btn_add_cart" href="" tabindex="0"><u>Rate & Review This Product</u></a>
                                     </div>
@@ -71,7 +71,7 @@
                                         <a href="javascript:void(0);"  class="disabled">Edit</a>
                                         <a href="">Recorder</a>
                                     </div>
-                                    <div class="order_price_info ml-lg-auto text-center text-lg-right mb-4 mb-lg-0">
+                                    <div class="order_price_info ml-auto text-right">
                                         <h4 class="cart_text font-cera">KWD 14.40 </h4>
                                         <a class="btn_add_cart" href="" tabindex="0"><u>Rate & Review This Product</u></a>
                                     </div>
@@ -88,7 +88,7 @@
                                         <a href="javascript:void(0);"  class="disabled">Edit</a>
                                         <a href="">Recorder</a>
                                     </div>
-                                    <div class="order_price_info ml-lg-auto text-center text-lg-right mb-4 mb-lg-0">
+                                    <div class="order_price_info ml-auto text-right">
                                         <h4 class="cart_text font-cera">KWD 14.40 </h4>
                                         <a class="btn_add_cart" href="" tabindex="0"><u>Rate & Review This Product</u></a>
                                     </div>
@@ -105,7 +105,7 @@
                                         <a href="javascript:void(0);"  class="disabled">Edit</a>
                                         <a href="">Recorder</a>
                                     </div>
-                                    <div class="order_price_info ml-lg-auto text-center text-lg-right mb-4 mb-lg-0">
+                                    <div class="order_price_info ml-auto text-right">
                                         <h4 class="cart_text font-cera">KWD 14.40 </h4>
                                         <a class="btn_add_cart" href="" tabindex="0"><u>Rate & Review This Product</u></a>
                                     </div>

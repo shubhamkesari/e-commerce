@@ -2,7 +2,7 @@
 <section class="checkout_section py_5">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-8 col-md-8">
+            <div class="col-lg-8 col-md-7 col-sm-6">
                 <div class="row">
                     <div class="col-12">
                         <div class="order_details_wrapper px-4">
@@ -273,7 +273,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-8">
+            <div class="col-lg-4 col-md-5 col-sm-6">
                 <div class="payment_deatils_wrapper">
                     <h4 class="font-cera border-bottom payment_deatils_title pb-4">Payment Detail</h4>
                     <table class="table table-borderless payment_deatils_table">

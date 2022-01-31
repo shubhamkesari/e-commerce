@@ -2,14 +2,14 @@
 <section class="rating_section py_5">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="col-lg-3 col-md-4">
                 <?php include('include/myaccount_sidebar.php');?>
             </div>
-            <div class="col-lg-9 col-md-8 col-sm-6">
+            <div class="col-lg-9 col-md-8">
                 <div class="row">
                     <div class="col-12">
                         <div class="sub_heading mb-4">
-                            <a href="" class="back_arrow mr-3 d-flex flex-xs-column align-items-center"><i class="fas fa-long-arrow-alt-left"></i> <h3 class="mb-0 ml-4">Rate This Product</h3></a>
+                            <a href="" class="back_arrow mr-3 d-flex flex-column flex-md-row flex-xs-column align-items-center"><i class="fas fa-long-arrow-alt-left"></i> <h3 class="mb-0 ml-4">Rate This Product</h3></a>
                         </div>
                     </div>
                     <div class="col-lg-10 offset-lg-1">

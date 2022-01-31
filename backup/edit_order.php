@@ -2,18 +2,18 @@
 <section class="edit_order py_5">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="col-lg-3 col-md-4">
                 <?php include('include/myaccount_sidebar.php');?>
             </div>
-            <div class="col-lg-9 col-md-8 col-sm-6">
+            <div class="col-lg-9 col-md-8">
                 <div class="row">
                     <div class="col-12">
                         <div class="sub_heading mb-4">
-                            <a href="" class="back_arrow mr-3 d-flex flex-xs-column align-items-center"><i class="fas fa-long-arrow-alt-left"></i> <h3 class="mb-0 ml-4">Edit Order</h3></a>
+                            <a href="" class="back_arrow mr-3 d-flex flex-column flex-md-row flex-xs-column align-items-center"><i class="fas fa-long-arrow-alt-left"></i> <h3 class="mb-0 ml-4">Edit Order</h3></a>
                         </div>
                     </div>
-                    <div class="col-lg-10 offset-lg-1 col-md-12">
-                        <div class="bg-gray text-center alert_card mb-4 px-4">
+                    <div class="col-lg-10 offset-lg-1">
+                        <div class="bg-gray text-center alert_card mb-4">
                             <img src="assets/images/alert.png" alt="">
                             <h4 class="text-dark-gray font-cera mt-4">Product not shipped yet make your changes.</h4>
                         </div>
@@ -25,15 +25,15 @@
                                 <button onclick="increment()">+</button>  
                             </div>
                         </div>
-                        <div class="border_card d-flex flex-column flex-md-row justify-content-between align-items-md-center mb-3">
-                            <div class="edit_order_sub_wrapper">
+                        <div class="border_card d-flex justify-content-between align-items-center mb-3">
+                            <div>
                                 <h5 class="mb-0 fs-20 font-cera">Address</h5>
                                 <p class="mb-0 text-paragraph">2118 Thornridge Cir. Syracuse, Connecticut 35624</p>
                             </div>
                             <a class="btn_add_cart" href="" tabindex="0"><u>Change Address</u></a>
                         </div>
-                        <div class="border_card d-flex flex-column flex-md-row justify-content-between align-items-md-center mb-3">
-                            <div class="edit_order_sub_wrapper">
+                        <div class="border_card d-flex justify-content-between align-items-center mb-3">
+                            <div>
                                 <h5 class="mb-0 fs-20 font-cera">Payment Method</h5>
                                 <p class="mb-0 text-paragraph">Cash on Delivery</p>
                             </div>
@@ -57,19 +57,3 @@
     </div>
 </section>
 <?php include('include/footer.php');?>
-<script>
-    //quantity number increment and decrement
-    var quantity_text = 0;
-
-    document.getElementById("quantity_number").innerText = quantity_text;
-
-    function increment() {
-        quantity_text = quantity_text + 1;
-        document.getElementById("quantity_number").innerText = quantity_text;
-    }
-
-    function decrement() {
-        quantity_text = quantity_text - 1;
-        document.getElementById("quantity_number").innerText = quantity_text;
-    }
-</script>

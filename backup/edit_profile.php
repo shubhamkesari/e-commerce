@@ -2,13 +2,13 @@
 <section class=" py_5">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="col-lg-3 col-md-4">
                 <?php include('include/myaccount_sidebar.php');?>
             </div>
-            <div class="col-lg-9 col-md-8 col-sm-6">
+            <div class="col-lg-9 col-md-8">
                 <div class="row">
                     <div class="col-12">
-                        <div class="sub_heading order_details d-flex flex-xs-column align-items-center mb-4">
+                        <div class="sub_heading order_details d-flex flex-column flex-md-row flex-xs-column align-items-center mb-4">
                             <a href="" class="back_arrow mr-3"><i class="fas fa-long-arrow-alt-left"></i></a>
                             <h3 class="mb-0">Edit Profile</h3>
                         </div>
@@ -16,7 +16,7 @@
                     <div class="col-lg-12">
                        <div class="profile_wrapper">
                             <div class="image_wrapper d-flex flex-column flex-md-row justify-content-between align-items-center">
-                                <img src="assets/images/celebrities/3.png" class="profile_pic" alt="">
+                                <img src="<?= WEB_ASSETS ?>images/celebrities/3.png" class="profile_pic" alt="">
                                 <button class="btn-yellow">Save Changes</button>
                             </div>
                            <div class="row">

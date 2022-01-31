@@ -8,14 +8,14 @@
             <div class="col-lg-9 col-md-8">
                 <div class="row">
                     <div class="col-12 px-10">
-                        <div class="sub_heading d-flex flex-xs-column justify-content-between align-items-center mb-3">
+                        <div class="sub_heading d-flex flex-column flex-md-row flex-xs-column justify-content-between align-items-center mb-3">
                             <h3 class="mb-0">Wishlist</h3>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 px-10 d-md-flex align-items-stretch">
+                    <div class="col-lg-4 px-10 d-flex align-items-stretch">
                         <div class="features_card">
                             <div class="features_image">
-                                <img src="assets/images/features/2.png" class="img-fluid" alt="">
+                                <img src="<?= WEB_ASSETS ?>images/features/2.png" class="img-fluid" alt="">
                                 <p class="rating">
                                     <i class="far fa-star"></i> 4.5
                                 </p>
@@ -34,10 +34,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 px-10 d-md-flex align-items-stretch">
+                    <div class="col-lg-4 px-10 d-flex align-items-stretch">
                         <div class="features_card">
                             <div class="features_image">
-                                <img src="assets/images/features/2.png" class="img-fluid" alt="">
+                                <img src="<?= WEB_ASSETS ?>images/features/2.png" class="img-fluid" alt="">
                                 <p class="rating">
                                     <i class="far fa-star"></i> 4.5
                                 </p>
@@ -56,10 +56,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 px-10 d-md-flex align-items-stretch">
+                    <div class="col-lg-4 px-10 d-flex align-items-stretch">
                         <div class="features_card">
                             <div class="features_image">
-                                <img src="assets/images/features/2.png" class="img-fluid" alt="">
+                                <img src="<?= WEB_ASSETS ?>images/features/2.png" class="img-fluid" alt="">
                                 <p class="rating">
                                     <i class="far fa-star"></i> 4.5
                                 </p>
@@ -78,10 +78,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 px-10 d-md-flex align-items-stretch">
+                    <div class="col-lg-4 px-10 d-flex align-items-stretch">
                         <div class="features_card">
                             <div class="features_image">
-                                <img src="assets/images/features/2.png" class="img-fluid" alt="">
+                                <img src="<?= WEB_ASSETS ?>images/features/2.png" class="img-fluid" alt="">
                                 <p class="rating">
                                     <i class="far fa-star"></i> 4.5
                                 </p>
@@ -100,10 +100,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-6 px-10 d-md-flex align-items-stretch">
+                    <div class="col-lg-4 px-10 d-flex align-items-stretch">
                         <div class="features_card">
                             <div class="features_image">
-                                <img src="assets/images/features/2.png" class="img-fluid" alt="">
+                                <img src="<?= WEB_ASSETS ?>images/features/2.png" class="img-fluid" alt="">
                                 <p class="rating">
                                     <i class="far fa-star"></i> 4.5
                                 </p>

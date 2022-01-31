@@ -35,7 +35,7 @@
         </div>
     </div>
 </section>
-<section class="my-5 pb-4">
+<section class="mt-5">
     <div class="container-fluid">
         <h3 class="font-cera">Get Connected</h3>
         <ul class="connected_list">

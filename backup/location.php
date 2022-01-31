@@ -1,18 +1,18 @@
 <?php include('include/header.php');?>
-<section class="store_card_wrapper my-5">
+<section class="store_card_wrapper">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="col-lg-3">
                 <?php include('include/help_sidebar.php');?>
             </div>
-            <div class="col-lg-9  col-md-8 col-sm-6">
+            <div class="col-lg-9">
                 <div class="row">
                     <div class="col-12">
                         <div class="sub_heading mb-4">
                             <h3>Our Store Locations</h3>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 px-10 d-md-flex align-items-md-stretch">
+                    <div class="col-lg-4 px-10 d-flex align-items-stretch">
                         <div class="store_card">
                             <div class="store_image">
                                 <img src="assets/images/store_cards/1.png" class="img-fluid store_bg_image" alt="">
@@ -28,7 +28,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 px-10 d-md-flex align-items-md-stretch">
+                    <div class="col-lg-4 px-10 d-flex align-items-stretch">
                         <div class="store_card">
                             <div class="store_image">
                                 <img src="assets/images/store_cards/1.png" class="img-fluid store_bg_image" alt="">
@@ -47,7 +47,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 px-10 d-md-flex align-items-md-stretch">
+                    <div class="col-lg-4 px-10 d-flex align-items-stretch">
                         <div class="store_card">
                             <div class="store_image">
                                 <img src="assets/images/store_cards/1.png" class="img-fluid store_bg_image" alt="">
@@ -63,7 +63,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 px-10 d-md-flex align-items-md-stretch">
+                    <div class="col-lg-4 px-10 d-flex align-items-stretch">
                         <div class="store_card">
                             <div class="store_image">
                                 <img src="assets/images/store_cards/1.png" class="img-fluid store_bg_image" alt="">
@@ -79,7 +79,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-md-6 px-10 d-md-flex align-items-md-stretch">
+                    <div class="col-lg-4 px-10 d-flex align-items-stretch">
                         <div class="store_card">
                             <div class="store_image">
                                 <img src="assets/images/store_cards/1.png" class="img-fluid store_bg_image" alt="">

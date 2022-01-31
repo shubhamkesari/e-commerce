@@ -2,7 +2,7 @@
     <div class="container-fluid">
         <div class="row mb-4">
             <div class="col-lg-3 col-md-4 col-sm-6">
-                <img src="assets/images/logo.png" class="mb-3" alt="">
+                <img src="<?= WEB_ASSETS ?>images/logo.png" class="mb-3" alt="">
                 <p class="text-black-50 font-weight-500 mb-3 pr-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod dolores, optio esse cupiditate eveniet.</p>
                 <p class="text-black-50 font-weight-500 mb-3 pr-3">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
@@ -52,13 +52,13 @@
                     <h5 class="copyright-text">© 2021 Angels. All rights reserved.</h5>
                 </div>
                 <div class="col-lg-4 d-flex">
-                    <div class="ml-md-auto w-100">
+                    <div class="ml-auto">
                         <p class="footer-bottom-text">We Accept</p>
                         <ul class="d-flex payment_list">
-                            <li><img src="assets/images/visa.png" class="img-fluid" alt=""></li>
-                            <li><img src="assets/images/master.jpg" class="img-fluid" alt=""></li>
-                            <li><img src="assets/images/master.jpg" class="img-fluid" alt=""></li>
-                            <li><img src="assets/images/master.jpg" class="img-fluid" alt=""></li>
+                            <li><img src="<?= WEB_ASSETS ?>images/visa.png" class="img-fluid" alt=""></li>
+                            <li><img src="<?= WEB_ASSETS ?>images/master.jpg" class="img-fluid" alt=""></li>
+                            <li><img src="<?= WEB_ASSETS ?>images/master.jpg" class="img-fluid" alt=""></li>
+                            <li><img src="<?= WEB_ASSETS ?>images/master.jpg" class="img-fluid" alt=""></li>
                         </ul>
                     </div>
                 </div>

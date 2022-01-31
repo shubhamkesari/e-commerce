@@ -1,5 +1,5 @@
 <?php include('include/header.php');?>
-<section class="location_details_wrapper my-5">
+<section class="location_details_wrapper">
     <div class="container-fluid">
         <div class="row">
             <div class="col-12">
@@ -7,7 +7,7 @@
                     <a href=""><i class="fas fa-long-arrow-alt-left"></i> Back</a>
                 </div>
             </div>
-            <div class="col-sm-6">
+            <div class="col-lg-6">
                 <div class="mr-md-3">
                     <img src="assets/images/store_cards/1.png" class="img-fluid store_image" alt="">
                 </div>
@@ -38,7 +38,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-sm-6">
+            <div class="col-lg-6">
                 <div class="ml-md-3">
                     <h3 class="location_heading">Promnade Mall</h3>
                     <div class="country_div">

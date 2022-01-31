@@ -7,7 +7,7 @@
                     <h3 class="mb-0">Items in Cart</h3>
                 </div>
             </div>
-            <div class="col-lg-8 col-md-8">
+            <div class="col-lg-8 col-md-8 col-sm-6">
                 <div class="row">
                     <div class="col-12">
                         <div class="orders_card">
@@ -19,7 +19,7 @@
                                     <div class="quantity_input">
                                         <div class="quantity_buttons">
                                             <button class="decrement" onclick="decrement()">-</button>  
-                                            <h5 class="mb-0 font-cera quantity_text" id="quantity_number"></h5>
+                                            <h5 class="mb-0 font-cera quantity_text quantity_number"></h5>
                                             <button class="increment" onclick="increment()">+</button>
                                         </div>
                                         <button class="cart_remove"><i class="fas fa-times mr-1"></i> <u>Remove</u></button>
@@ -40,7 +40,7 @@
                                     <div class="quantity_input">
                                         <div class="quantity_buttons">
                                             <button class="decrement" onclick="decrement()">-</button>  
-                                            <h5 class="mb-0 font-cera quantity_text" id="quantity_number"></h5>
+                                            <h5 class="mb-0 font-cera quantity_text quantity_number"></h5>
                                             <button class="increment" onclick="increment()">+</button>
                                         </div>
                                         <button class="cart_remove"><i class="fas fa-times mr-1"></i> <u>Remove</u></button>
@@ -61,7 +61,7 @@
                                     <div class="quantity_input">
                                         <div class="quantity_buttons">
                                             <button class="decrement" onclick="decrement()">-</button>  
-                                            <h5 class="mb-0 font-cera quantity_text" id="quantity_number"></h5>
+                                            <h5 class="mb-0 font-cera quantity_text quantity_number"></h5>
                                             <button class="increment" onclick="increment()">+</button>
                                         </div>
                                         <button class="cart_remove"><i class="fas fa-times mr-1"></i> <u>Remove</u></button>
@@ -154,7 +154,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-4 col-sm-6">
                 <div class="payment_deatils_wrapper">
                     <h4 class="font-cera border-bottom payment_deatils_title pb-4">Payment Detail</h4>
                     <table class="table table-borderless payment_deatils_table">
@@ -198,3 +198,19 @@
     </div>
 </section>
 <?php include('include/footer.php');?>
+<script>
+    //quantity number increment and decrement
+    var quantity_text = 0;
+
+    document.getElementsByClassName("quantity_number").innerText = quantity_text;
+
+    function increment() {
+        quantity_text = quantity_text + 1;
+        document.getElementsByClassName("quantity_number").innerText = quantity_text;
+    }
+
+    function decrement() {
+        quantity_text = quantity_text - 1;
+        document.getElementsByClassName("quantity_number").innerText = quantity_text;
+    }
+</script>

@@ -33,7 +33,12 @@ $('.features_product_slick').slick({
     prevArrow: "<button type='button' class='slick-prev pull-left'><img src='assets/images/arrow-right.png' alt='' /></button>",
     nextArrow: "<button type='button' class='slick-next pull-right'><img src='assets/images/arrow-right.png' alt='' /></button>",
     responsive: [{
-            breakpoint: 991,
+            breakpoint: 1300,
+            settings: {
+                slidesToShow: 3
+            }
+        }, {
+            breakpoint: 900,
             settings: {
                 slidesToShow: 2
             }
@@ -60,7 +65,12 @@ $('.new_arrival_slick').slick({
     prevArrow: "<button type='button' class='slick-prev pull-left'><img src='assets/images/arrow-right.png' alt='' /></button>",
     nextArrow: "<button type='button' class='slick-next pull-right'><img src='assets/images/arrow-right.png' alt='' /></button>",
     responsive: [{
-            breakpoint: 991,
+            breakpoint: 1300,
+            settings: {
+                slidesToShow: 3
+            }
+        }, {
+            breakpoint: 900,
             settings: {
                 slidesToShow: 2
             }
@@ -254,7 +264,7 @@ $('.gift_coupan_slick').slick({
         }, {
             breakpoint: 768,
             settings: {
-                slidesToShow: 2
+                slidesToShow: 1
             }
         },
         {

@@ -2,10 +2,10 @@
 <section class=" py_5">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="col-lg-3 col-md-4">
                 <?php include('include/myaccount_sidebar.php');?>
             </div>
-            <div class="col-lg-9 col-md-8 col-sm-6">
+            <div class="col-lg-9 col-md-8">
                 <div class="row">
                     <div class="col-12">
                         <div class="sub_heading mb-4">
@@ -15,8 +15,8 @@
                     <div class="col-lg-12">
                        <div class="profile_wrapper">
                             <div class="image_wrapper d-flex flex-column flex-md-row justify-content-between align-items-center">
-                                <img src="assets/images/celebrities/3.png" class="profile_pic" alt="">
-                                <div class="profile_cta_card">
+                                <img src="<?= WEB_ASSETS ?>images/celebrities/3.png" class="profile_pic" alt="">
+                                <div>
                                     <a href="" class="btn-transparent">Change Password <i class="fas fa-key"></i></a>
                                     <a href="" class="btn-transparent">Edit Profile <i class="fas fa-pencil-alt"></i></a>
                                 </div>

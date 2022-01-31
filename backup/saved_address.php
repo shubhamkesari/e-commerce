@@ -2,21 +2,21 @@
 <section class=" py_5">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="col-lg-3 col-md-4">
                 <?php include('include/myaccount_sidebar.php');?>
             </div>
-            <div class="col-lg-9 col-md-8 col-sm-6">
+            <div class="col-lg-9 col-md-8">
                 <div class="row">
                     <div class="col-12">
-                        <div class="sub_heading d-flex flex-column flex-md-row flex-xs-column align-items-start align-items-md-center justify-content-between mb-4">
-                            <h3 class="mb-md-0 mb-4">Saved Addresses</h3>
+                        <div class="sub_heading d-flex flex-column flex-md-row flex-xs-column align-items-center justify-content-between mb-4">
+                            <h3 class="mb-0">Saved Addresses</h3>
                             <a href="" class="btn-yellow">Add New Address</a>
                         </div>
                     </div>
                     <div class="col-lg-12">
                         <div class="address_wrapper mb-4">
                             <h5 class="font-cera">Default Address</h5>
-                            <div class="border_card d-flex flex-column flex-md-row justify-content-between py_2">
+                            <div class="border_card d-flex justify-content-between py_2">
                                 <div class="custom-control custom-radio custom-control-inline d-flex">
                                     <input type="radio" id="customRadioInline1" name="saved_address" class="custom-control-input">
                                     <label class="custom-control-label" for="customRadioInline1">
@@ -27,7 +27,7 @@
                                         </div>
                                     </label>
                                 </div>
-                                <div class="profile_cta_card  align-items-center align-items-md-start">
+                                <div>
                                     <a href="" class="btn-transparent">Edit</a>
                                     <a href="" class="btn-transparent">Remove</a>
                                 </div>
@@ -35,7 +35,7 @@
                         </div>
                         <div class="address_wrapper mb-4">
                             <h5 class="font-cera">Other Address</h5>
-                            <div class="border_card d-flex flex-column flex-md-row justify-content-between py_2">
+                            <div class="border_card d-flex justify-content-between py_2">
                                 <div class="custom-control custom-radio custom-control-inline d-flex">
                                     <input type="radio" id="customRadioInline2" name="saved_address" class="custom-control-input">
                                     <label class="custom-control-label" for="customRadioInline2">
@@ -46,7 +46,7 @@
                                         </div>
                                     </label>
                                 </div>
-                                <div class="text-right profile_cta_card align-items-center align-items-md-end">
+                                <div class="text-right">
                                     <a href="" class="btn-transparent">Edit</a>
                                     <a href="" class="btn-transparent">Remove</a>
                                     <div class="mt_2">

@@ -92,6 +92,7 @@ $textgray_4) {
     line-height: 1;
     color: $dark_gray_1;
     height: 48px;
+    min-width: 115px;
 }
 
 h1,
@@ -972,6 +973,9 @@ footer {
     flex-direction: column;
     .features_image {
         position: relative;
+        img {
+            width: 100%;
+        }
         .rating {
             position: absolute;
             top: 10px;
@@ -1870,6 +1874,9 @@ footer {
 }
 
 .edit_order {
+    .edit_order_sub_wrapper {
+        max-width: 70%;
+    }
     .quantity_input {
         display: flex;
         align-items: center;

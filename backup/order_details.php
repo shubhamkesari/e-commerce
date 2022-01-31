@@ -2,13 +2,13 @@
 <section class="store_card_wrapper py_5">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-lg-3 col-md-4 col-sm-6">
+            <div class="col-lg-3 col-md-4">
                 <?php include('include/myaccount_sidebar.php');?>
             </div>
-            <div class="col-lg-9 col-md-8 col-sm-6">
+            <div class="col-lg-9 col-md-8">
                 <div class="row">
                     <div class="col-12">
-                        <div class="sub_heading order_details d-flex align-items-center mb-4">
+                        <div class="sub_heading order_details d-flex flex-column flex-md-row flex-xs-column align-items-center mb-4">
                             <a href="" class="back_arrow mr-3"><i class="fas fa-long-arrow-alt-left"></i></a>
                             <h3 class="mb-0">Order Id: <span class="font-cera"> 22559KLM668/9KL</span></h3>
                         </div>
@@ -27,7 +27,7 @@
                                     <a href="javascript:void(0);"  class="disabled">Edit</a>
                                     <a href="">Recorder</a>
                                 </div>
-                                <div class="order_price_info ml-lg-auto text-center text-lg-right">
+                                <div class="order_price_info ml-auto text-right">
                                     <h4 class="cart_text font-cera">KWD 14.40 </h4>
                                     <a class="btn_add_cart" href="" tabindex="0"><u>Rate & Review This Product</u></a>
                                 </div>
